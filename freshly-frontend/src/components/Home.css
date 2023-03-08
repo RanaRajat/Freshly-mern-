@@ -1,0 +1,164 @@
+.indexSection1{
+    display: flex;
+    width: 100%;
+    height: 49rem;
+    margin-top: 5rem;
+    background-color: #fef9ea;
+}
+.indexLeftDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5rem;
+}
+.indexRightDiv{
+    width: 50%;
+   height: 100%;
+}
+.rightDivImg{
+    object-fit:cover;
+}
+.indexLeftDiv1{
+    width: 35%;
+    height: 30%;
+ margin-left: 5rem;
+ margin-top: -1rem;
+}
+h1{
+    font-family:monospace;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:bolder;
+    color: rgb(0, 0, 0,0.7);
+}
+.indexLeftDiv2>h1{
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+h5{
+    font-family:monospace;
+    font-weight:bolder;
+
+}
+.indexLeftDiv3{
+    margin-left: 5rem;
+  
+}
+.indexLeftDiv4{
+    margin-left: 5rem;
+
+}
+.indexSection2{
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5d94e04ff2b857688f7138b6_home_image2.jpg");
+    display: flex;
+    width: 100%;
+    height: 49rem;
+    background-color: #fef9ea;
+    justify-content: center;
+    align-items: center;
+}
+.section2Div{
+    width: 45%;
+    height: 82%;
+    padding: 3%;
+    background-color: white;
+
+}
+h2,p,h3,h4{
+    font-family:monospace;
+    font-weight:bolder;
+     
+}
+.section3Div{
+    width: 80%;
+    margin-top: 2rem;
+
+}
+
+.section4Div{
+     width: 79%;
+     height: 69%;
+     margin: auto;
+     margin-top: 2rem;
+     display: grid;
+     grid-template-columns: 30% 30% 30%;
+     grid-gap: 3.33%;
+}
+.section4Div>div>img{
+    height: 8rem;
+}
+.section4Div>div{
+    height: 11rem;
+    color: rgb(0, 0, 0,0.7);
+    padding: 0.1%;
+  
+    
+}
+.innerThumbnailDiv{
+    border: 0.1px solid rgb(0, 0, 0,0.2);
+}
+.btnLink{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #3265f6;
+    height: 1.8rem;
+    border: none;
+    width: 9rem;
+}
+.plansMenuBtnDiv{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.indexsection3{
+    width: 100%;
+    height: 43rem;
+}
+.indexsection3Div1{
+    width: 95%;
+    height: 55%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.section3{
+    text-align: center;
+    margin-top: 2rem;
+}
+.indexsection3Div1{
+    display: flex;
+}
+
+.indexsection3Div1>div{
+ border: 0.1px solid rgb(0, 0, 0,0.2);
+ width: 18%;
+ height: 17rem;
+ margin: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.bottomText{
+    text-align: center;
+}
+.mealPlanText{
+    text-align: center;
+    margin-top: 2rem;
+}
+.mealPlanBtn{
+    width: 50%;
+    margin: auto;
+    border: none;
+    height: 1.8rem;
+    color: white;
+}

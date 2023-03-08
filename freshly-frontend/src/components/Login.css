@@ -1,0 +1,29 @@
+label{
+    font-family:monospace;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:bolder;
+    color: rgb(0, 0, 0,0.7);
+
+}
+input{
+    border: none;
+    height: 1.8rem;
+    width: 15rem;
+}
+form{
+    width: 30rem;
+    height: 18rem;
+}
+.submitLogin{
+    width: 7rem;
+    height: 1.8;
+    background-color: #3265f6;
+    margin-left: 1rem;
+    color: white;
+
+}

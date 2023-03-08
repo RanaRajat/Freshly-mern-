@@ -1,0 +1,42 @@
+.homeMenuDivMain{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1%;
+    padding: 1%;
+    margin-top: 5rem;
+    position: relative;
+    
+}
+.homeMenuDiv{
+    width: 74%;
+    height: 24rem;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.homeMenuDivImgDiv{
+    width: 98%;
+    height: 15rem;
+}
+.homeMenuDivImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    
+}
+.homeMenuDivImg:hover{
+    object-fit: contain;
+}
+p{
+    font-size: small;
+    color: rgb(10, 10, 10,0.7);
+    margin-top: 1rem;
+}
+h3{
+    font-size: medium;
+}

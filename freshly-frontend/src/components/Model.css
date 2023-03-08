@@ -1,0 +1,58 @@
+.inactive{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+.activeDiv{
+    width: 78vw;
+    height: 85vh;
+    border: 0.1px solid rgb(0, 0, 0,0.2);
+    z-index: 2;
+    background-color: #fef9ea;
+    position: fixed;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 1%;
+    overflow: scroll;
+    border-radius: 4px;
+}
+.coverPara{
+    display: flex;
+
+}
+.coverPara>div{
+    width: 48%;
+    margin: 1%;
+
+}
+.imgmodeldiv{
+    width: 48%;
+    height: 13rem;
+    margin: 1%;
+
+}
+.imgcover{
+    display: flex;
+
+}
+.thumbnailsDivImg>img{
+    height: 6rem;
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.thumbnailsDivImg{
+    width: 49%;
+}
+.closebtn:hover{
+    color: rgb(238, 108, 9);
+}
+.topmodeldiv{
+    width: 95%;
+}
+.topCover{
+    display: flex;
+}
